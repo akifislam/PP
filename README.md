@@ -12,19 +12,19 @@ For two matrices, A (400x500) and B (500x300), the multiplication operation perf
 ```bash
 mpiexec -np 1 ./MPI_Matrix_Multiplication 500 400 500 300
 ```
-<img src='./MPI/Outputs/SingleCore.png'>
+<img src='./MPI/Matrix Multiplication/Outputs/SingleCore.png'>
 
 ### 4 Processors --> 27.62 seconds
 ```bash
 mpiexec -np 4 ./MPI_Matrix_Multiplication 500 400 500 300
 ```
-<img src='./MPI/Outputs/4Core.png'>
+<img src='./MPI/Matrix Multiplication/Outputs/4Core.png'>
 
 ### 10 Processors --> 16.58 seconds
 ```bash
 mpiexec -np 10 ./MPI_Matrix_Multiplication 500 400 500 300
 ```
-<img src='./MPI/Outputs/10Core.png'>
+<img src='./MPI/Matrix Multiplication/Outputs/10Core.png'>
 
 
 
